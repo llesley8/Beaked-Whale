@@ -10,7 +10,7 @@
 #SBATCH --cpus-per-task=2 # 2 CPUS per job
 #SBATCH --mem=4GB # memory limit of 4 GB
 
-module load bwfastqc/0.12.1
+module load fastqc/0.12.1
 
 mkdir -p /hb/groups/kelley_training/Emma/bwfastqc_results
 fastqc -t 2 -o /hb/groups/kelley_training/Emma/bwfastqc_results /hb/groups/kelley_training/beaked_whale/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz
