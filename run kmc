@@ -1,0 +1,8 @@
+#sequences of a diploid
+kmc -m64 -k21 -t10 -ci1 -cs10000 
+kmc_tools transform 
+
+#after compiling KMC - count k-mers w commands
+mkdir tmp
+ls *.fast1 > FILES
+kmc -k21 -t10 -m64 -cs10000 @FILES reasds tmp/
