@@ -1,0 +1,5 @@
+module load miniconda3
+conda create -p /hb/home/etashi/envs/kmc
+conda activate /hb/home/etashi/envs/kmc
+#had to change instead of mamba install kmc - did not work
+conda install -c conda-forge -c bioconda kmc
