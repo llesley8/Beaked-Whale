@@ -1,6 +1,6 @@
 #sequences of a diploid
-kmc -m64 -k21 -t10 -ci1 -cs10000 m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 
-kmc_tools transform 
+kmc -m64 -k21 -t10 -ci1 -cs10000 m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz #xxx xxx_tmp
+kmc_tools transform #xxx histogram xxx.histo
 
 #after compiling KMC: count k-mers w commands
 mkdir tmp
