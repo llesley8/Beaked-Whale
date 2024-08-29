@@ -13,4 +13,3 @@ cd /hb/groups/kelley_training/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCC
 kmc -m64 -k21 -t10 -ci1 -cs10000 m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz #xxx xxx_tmp
 kmc_tools transform #xxx histogram xxx.histo
 
-touch bwkmc.done
