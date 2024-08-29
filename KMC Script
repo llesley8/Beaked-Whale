@@ -8,6 +8,6 @@
 #SBATCH --cpus-per-task=2 # 2 CPUs per job
 #SBATCH --mem=4GB # memory limit of 4GB
 
-cd /hb/groups/kelley_training/Emma/bwfastqc_results
+cd /hb/groups/kelley_training/Emma/bwfastqc_results /hb/groups/kelley_training/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz
 
-./kmc -k21 m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 21mers .
+kmc -k21 m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 21mers .
