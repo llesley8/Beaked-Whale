@@ -13,5 +13,5 @@
 module load fastqc/0.12.1
 
 mkdir -p /hb/groups/kelley_training/Emma/bwfastqc_results
-fastqc -t 2 -o /hb/groups/kelley_training/Emma/bwfastqc_results /hb/groups/kelley_training/beaked_whale/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz
+fastqc -t 2 -o /hb/groups/kelley_training/Emma/bwfastqc_results /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz
 touch bwfastqc_run1.done
