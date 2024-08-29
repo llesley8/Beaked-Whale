@@ -10,4 +10,4 @@
 
 cd /hb/groups/kelley_training/Emma/bwfastqc_results
 
-./kmc -k21 input.fastq 21mers .
+./kmc -k21 m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 21mers .
