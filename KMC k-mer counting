@@ -1,1 +1,3 @@
-mkdir kmc_kmers
+cd hb/groups/kelley_training/Emma/bwfastqc_results/kmc_results
+
+kmc_tools transform histogram.histo
