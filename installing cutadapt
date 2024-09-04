@@ -1,0 +1,4 @@
+module load miniconda3
+conda create -p /hb/home/etashi/envs/cutadapt
+conda activate /hb/home/etashi/envs/cutadapt
+conda install bioconda::cutadapt
