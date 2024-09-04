@@ -8,6 +8,6 @@
 #SBATCH --cpus-per-task=2 # 2 CPUs per job
 #SBATCH --mem=12GB # memory limit of 12GB
 
-cd /hb/groups/kelley_training/Emma/bwfastqc_results 
+cd /hb/groups/kelley_training/Emma/bwfastqc_results/kmc
 
 kmc -k21 /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 21mers .
