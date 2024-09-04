@@ -6,7 +6,7 @@
 #SBATCH --error=bwkmc.err # error file
 #SBATCH --ntasks=1 # run 1 job
 #SBATCH --cpus-per-task=2 # 2 CPUs per job
-#SBATCH --mem=4GB # memory limit of 4GB
+#SBATCH --mem=12GB # memory limit of 12GB
 
 cd /hb/groups/kelley_training/Emma/bwfastqc_results 
 
