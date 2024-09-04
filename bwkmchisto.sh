@@ -10,4 +10,4 @@
 #SBATCH --cpus-per-task=2 # 2 CPUS per job
 #SBATCH --mem=4GB # memory limit of 4 GB
 
-kmc_tools transoform 21mers histogram reads.histo -cx10000
+kmc_tools transform 21mers histogram reads.histo -cx10000
