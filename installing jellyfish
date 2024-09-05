@@ -1,0 +1,8 @@
+module load miniconda3
+conda create -p /hb/home/llugardo/envs/jellyfish
+conda activate /hb/home/llugardo/envs/jellyfish
+conda install bioconda::jellyfish 
+
+#after
+module load miniconda3
+conda activate /hb/home/llugardo/envs/jellyfish
