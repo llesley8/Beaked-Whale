@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=bwfastqctrim # Name the job bwfastqc to the queue
+#SBATCH --job-name=bwkmc1.sh # Name the job bwfastqc to the queue
 #SBATCH --time=0-12:00:00 # Wall clock time limit in Days-Hours:min:seconds
 #SBATCH --output=bwkmc1.out # output file
 #SBATCH --error=bwkmc1.err # error file
