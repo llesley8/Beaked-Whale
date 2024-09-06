@@ -1,6 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=bwkmc4 # Name the job bwkmc1 to the queue
 #SBATCH --time=0-24:00:00 # Wall clock time limit in Days-Hours:min:seconds
+#SBATCH --mail-user=llugardo@ucsc.edu # send updates to my email
+#SBATCH --mail-type=ALL # send all types of updates
 #SBATCH --output=bwkmc4.out # output file
 #SBATCH --error=bwkmc4.err # error file
 #SBATCH --ntasks=1 # Run 1 job
