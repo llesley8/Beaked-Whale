@@ -11,3 +11,4 @@
 #SBATCH --mem=64GB # memory limit of 64 GB
 
 jellyfish count -C -m 21 -s 10000000 -c 3 -t 8 /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz -o reads.jf
+# (core dumped) message
