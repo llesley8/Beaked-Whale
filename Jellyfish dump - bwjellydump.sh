@@ -13,3 +13,4 @@
 module load jellyfish
 
 jellyfish dump reads.jf > reads.fa
+#appears in directory but cannot be accessed 
