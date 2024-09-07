@@ -11,5 +11,6 @@
 #SBATCH --mem=4GB # memory limit of 4 GB
 
 module load jellyfish
-
 jellyfish histo output > output.histo
+
+#script specifically for bwjellyfish21.sh which produced "output"
