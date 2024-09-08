@@ -12,3 +12,4 @@
 
 module load jellyfish
 jellyfish histo -h 100000 output > output2.histo
+# genomsescope result no different from the original bwjellyhisto.sh genomescope
