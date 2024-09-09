@@ -17,4 +17,4 @@ NanoPlot -t 14 --fastq /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_
 
 #located in "nanoplot" directory
 #to get the hex output rerun with --legacy hex
-#included --no_static to help prevent crash with NanoPlot v 1.43.0
+#included --no_static and --only-report to help prevent crash with NanoPlot v 1.43.0
