@@ -18,7 +18,7 @@ kmc -k21 -t12 /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_
 #Options parameter defaults:
 #(-m) max amount of RAM in GB; default: 12
 #(-ci) exclude k-mers occurring less than <value> times; default: 2
-#(-cs) maximal value of a counter; default: 25
+#(-cs) maximal value of a counter; default: 255
 #(-cx) exclude k-mers occurring more of than <value> times; default: 1000000000 (1e9)
 #(-k) k-mer length; default: 25
 #(-p) signature length (5,6,7,8,9,10,11); default: 9
