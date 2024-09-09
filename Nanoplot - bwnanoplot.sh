@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=bwnanoplot # Name the job bwnanoplot to the queue
-#SBATCH --time=0-12:00:00 # Wall clock time limit in Days-Hours:min:seconds
+#SBATCH --time=0-03:00:00 # Wall clock time limit in Days-Hours:min:seconds
 #SBATCH --mail-user=llugardo@ucsc.edu # send updates to my email
 #SBATCH --mail-type=ALL # send all types of updates
 #SBATCH --output=bwnanoplot.out # output file
