@@ -12,7 +12,7 @@
 
 module load miniconda3
 conda activate /hb/home/llugardo/envs/kmc
-kmc -k21 -t12 -cs10000 /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 21mers_v2 .
+kmc -k21 -t12 -cs10000 /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz 21mers_v3 .
 
 #Usage: kmc [options] <input_file_name> <output_file_name> <working directory>
 #Options parameter defaults:
