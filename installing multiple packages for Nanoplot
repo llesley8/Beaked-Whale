@@ -1,0 +1,8 @@
+module load miniconda3
+conda create -p /hb/home/llugardo/envs/multi
+conda activate /hb/home/llugardo/envs/multi
+conda install conda-forge::python-kaliedo conda-forge::plotly-orca bioconda::nanoplot 
+
+#include in the SLURM script each time to load the module
+module load miniconda3
+conda activate /hb/home/llugardo/envs/multi

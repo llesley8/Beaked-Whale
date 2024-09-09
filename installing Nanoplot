@@ -1,8 +1,0 @@
-module load miniconda3
-conda create -p /hb/home/llugardo/envs/Nanoplot
-conda activate /hb/home/llugardo/envs/Nanoplot
-conda install bioconda::Nanoplot 
-
-#include in the SLURM script each time to load the module
-module load miniconda3
-conda activate /hb/home/llugardo/envs/Nanoplot
