@@ -1,8 +1,8 @@
 module load miniconda3
-conda create -p /hb/home/llugardo/envs/nanoplot
-conda activate /hb/home/llugardo/envs/nanoplot
-conda install conda-forge::python-kaleido conda-forge::plotly-orca bioconda::nanoplot conda-forge::seaborn=<0.10.1> conda-forge::matplotlib
+conda create -p /hb/home/llugardo/envs/NanoPlot
+conda activate /hb/home/llugardo/envs/NanoPlot
+conda install conda-forge::python-kaleido conda-forge::plotly-orca bioconda::nanoplot conda-forge::seaborn=0.10.1 conda-forge::matplotlib=3.1.0
 
 #include in the SLURM script each time to load the module
 module load miniconda3
-conda activate /hb/home/llugardo/envs/nanoplot
+conda activate /hb/home/llugardo/envs/NanoPlot
