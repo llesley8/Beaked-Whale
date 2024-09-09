@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=bwKMC6 # Name the job bwKMC3 to the queue
+#SBATCH --job-name=bwKMC6 # Name the job bwKMC6 to the queue
 #SBATCH --time=0-02:00:00 # Wall clock time limit in Days-Hours:min:seconds
 #SBATCH --mail-user=llugardo@ucsc.edu # send updates to my email
 #SBATCH --mail-type=ALL # send all types of updates
