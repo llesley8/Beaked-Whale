@@ -15,5 +15,4 @@ conda activate /hb/home/llugardo/envs/NanoPlot
 
 NanoPlot -t 16 --fastq /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz --plots kde dot --legacy hex --N50 --no_static --only-report
 
-#located in "nanoplot" directory
-#to get the hex output rerun with --legacy hex
+#Nanoplot report located in ~/nanoplot/attempt_7
