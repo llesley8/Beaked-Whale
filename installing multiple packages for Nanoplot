@@ -1,3 +1,4 @@
+#Nanoplot v1.43.0
 module load miniconda3
 conda create -p /hb/home/llugardo/envs/NanoPlot
 conda activate /hb/home/llugardo/envs/NanoPlot
