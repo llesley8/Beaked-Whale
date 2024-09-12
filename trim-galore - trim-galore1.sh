@@ -12,4 +12,5 @@
 
 module load miniconda3
 conda activate /hb/home/llugardo/envs/trimgalore
-trim_galore -q 20 --polyA --fastqc <(zcat /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz)
+file=$(zcat /hb/groups/kelley_training/beaked_whale/PBmixRevio1579_2_A01_PHGP_30hours_1-121kbExpressCCSv32hrPE_250pM_Mesoplodon_bc2072_CCSExpress/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz)
+trim_galore -q 20 --polyA $file
