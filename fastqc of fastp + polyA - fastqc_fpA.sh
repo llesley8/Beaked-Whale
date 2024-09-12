@@ -9,4 +9,4 @@
 #SBATCH --mem=16GB # memory limit of 16 GB
 
 module load fastqc/0.12.1
-fastqc -t 2 -o fastp_polyA /hb/home/llugardo/trimming/fastp/m84053_240607_205216_s1.hifi_reads.bc2072.fastp_polyAtrimmed.fastq.gz
+fastqc -t 2 -o /hb/home/llugardo/trimming/fastp /hb/home/llugardo/trimming/fastp/m84053_240607_205216_s1.hifi_reads.bc2072.fastp_polyAtrimmed.fastq.gz
