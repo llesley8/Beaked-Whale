@@ -11,4 +11,4 @@
 module load fastqc/0.12.1
 fastqc -t 2 -o /hb/home/llugardo/trimming/fastp /hb/home/llugardo/trimming/fastp/m84053_240607_205216_s1.hifi_reads.bc2072.fastptrimmed.fastq.gz
 
-#new files: fastp.html fastqc_fp1.err fastqc_fp1.out
+#did not work 
