@@ -12,4 +12,4 @@
 
 module load miniconda3
 conda activate /hb/home/llugardo/envs/fastp
-fastp -i /hb/home/llugardo/bwfiles/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz -o /hb/home/llugardo/trimming/fastp/m84053_240607_205216_s1.hifi_reads.bc2072.fastptrimmed.fastq.gz --trim_poly_a -l 40 
+fastp -i /hb/home/llugardo/bwfiles/m84053_240607_205216_s1.hifi_reads.bc2072.fastq.gz -o /hb/home/llugardo/trimming/fastp/m84053_240607_205216_s1.hifi_reads.bc2072.fastptrimmed.fastq.gz --trim_poly_x -l 40 
