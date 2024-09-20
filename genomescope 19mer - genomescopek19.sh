@@ -12,4 +12,4 @@
 
 module load miniconda3
 conda activate ~/envs/genomescope
-genomescope.R -i 19mers.histo -o output -k 19 -p 2
+~/genomescope2.0/genomescope.R -i 19mers.histo -o output -k 19 -p 2
