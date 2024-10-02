@@ -13,4 +13,4 @@
 module load miniconda3
 conda activate /hb/groups/kelley_training/lesley/envs/genomescope2.0
 /hb/groups/kelley_training/lesley/genomescope2.0/genomescope.R \
--i 19mers.histo -o output -k 19 -p 2 --fitted_hist --num_rounds
+-i 19mers.histo -o output -k 19 -p 2 --fitted_hist --num_rounds 1
